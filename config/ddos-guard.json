@@ -1,0 +1,13 @@
+{
+  "SampleIntervalSeconds": 1,
+  "WindowSeconds": 10,
+  "MaxConnectionsPerWindow": 80,
+  "MaxNewConnectionsPerWindow": 40,
+  "BlockMinutes": 30,
+  "ProtectedLocalPorts": [],
+  "AllowList": [
+    "127.0.0.1",
+    "::1"
+  ],
+  "FirewallRulePrefix": "PCDDoSGuard"
+}
